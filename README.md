@@ -2,7 +2,7 @@ Advanced HTML
 
 Which guidelines to follow for HTML:
 
-Use a DOCTYPE declaration to ensure proper rendering and compatibility with web browsers
+Use a DOCTYPE declaration to ensure proper rendering and compatibility with web browsers.
 Employ semantic HTML to improve SEO and accessibility.
 Keep the code clean and well organized with proper indentation and comments.
 Ensure the HTML is valid according to W3C standards to avoid errors and cross-browser compatibility issues.
