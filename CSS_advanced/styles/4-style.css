@@ -1,0 +1,43 @@
+/* Defining root level CSS custom properties (variables) */
+:root {
+    --color-primary: #d73953; /* Primary brand color */
+    --color-black: #161616; /* Black color for text and other elements */
+    --color-white: #ffffff; /* White color for backgrounds and text */
+    --color-light-grey: #f3f3f3; /* Light grey color for backgrounds and borders */
+    --color-dark-grey: #353535; /* Dark grey color for text and other elements */
+    --text-color: var(--color-black); /* Default text color */
+    --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Base font family for body text */
+    --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Font family for titles */
+}
+
+/* Smooth scrolling for the entire document */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Body styling */
+body {
+    color: var(--text-color); /* Text color taken from the custom property */
+    font-family: var(--font-family-base); /* Font family for the body text */
+}
+
+/* Anchor tag (link) styling */
+a {
+    color: var(--text-color); /* Ensuring consistency in text color for all links */
+}
+
+/* Utility class to visually hide elements, but keep them accessible to screen readers */
+.visually-hidden {
+    display: none; /* This removes the element from display, but it is still accessible to assistive technology */
+}
+
+/* Styling for card category and section tagline */
+.card-category,
+.section-tagline {
+    color: var(--color-primary); /* Using primary color for these elements */
+}
+
+/* Uniform font family styling for all heading levels */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title); /* Titles use the font family designated for headings */
+}
