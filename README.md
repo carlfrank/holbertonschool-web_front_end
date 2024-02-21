@@ -46,9 +46,4 @@ Create a new Pull Request.
 License
 This project is open source and available under the MIT License.
 
-Contact
-Your Name - [Insert Your Contact Information]
 Project Link: https://github.com/carlfrank/holbertonschool-web_front_end
-
-
-Ensure to replace `[Insert Your Contact Information]` with your actual contact information or preferred way of reaching out. Also, review and adjust each section to better match the specifics of your front-end development curriculum, adding any additional sections or details you find necessary.
